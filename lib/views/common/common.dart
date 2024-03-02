@@ -14,3 +14,6 @@ export 'shimmer.dart';
 export 'vertical_shimmer.dart';
 export 'vertical_tile.dart';
 export 'width_spacer.dart';
+
+export 'drawer/widgets/drawer_item.dart';
+export 'drawer/widgets/drawer_widget.dart';

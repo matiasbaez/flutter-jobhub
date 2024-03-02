@@ -2,10 +2,14 @@ import 'package:flutter/material.dart';
 
 class WidthSpacer extends StatelessWidget {
 
-  const WidthSpacer({super.key});
+  final double width;
+
+  const WidthSpacer({super.key, required this.width});
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return SizedBox(
+      width: width,
+    );
   }
 }

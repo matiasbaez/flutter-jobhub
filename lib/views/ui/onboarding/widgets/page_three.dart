@@ -66,7 +66,7 @@ class PageThree extends StatelessWidget {
                     final SharedPreferences prefs = await SharedPreferences.getInstance();
                     await prefs.setBool('entrypoint', true);
                     if (!context.mounted) return;
-                    context.push('/auth/singup');
+                    context.push('/auth/signup');
                   },
                 ),
 

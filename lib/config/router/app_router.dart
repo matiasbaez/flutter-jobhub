@@ -17,10 +17,14 @@ final appRouter = GoRouter(
     ),
 
     GoRoute(
-      path: '/auth/login',
+      path: '/auth/signup',
       builder: (context, state) => const SignupScreen(),
     ),
 
+    GoRoute(
+      path: '/home',
+      builder: (context, state) => const Mainscreen(),
+    ),
 
   ]
 );
