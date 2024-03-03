@@ -104,7 +104,7 @@ class _LoginScreenState extends State<LoginScreen> {
             Align(
               alignment: Alignment.centerRight,
               child: GestureDetector(
-                onTap: () => context.push('/auth/register'),
+                onTap: () => context.push('/auth/signup'),
                 child: ReusableText(
                   text: "Register",
                   style: appstyle(14, Color(kDark.value), FontWeight.w500),
@@ -115,7 +115,7 @@ class _LoginScreenState extends State<LoginScreen> {
             const HeightSpacer(size: 50),
 
             CustomButton(
-              onTap: () {},
+              onTap: () => context.replace('/home'),
               text: "Login",
             )
 

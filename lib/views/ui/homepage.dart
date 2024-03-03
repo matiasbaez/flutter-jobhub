@@ -21,9 +21,9 @@ class _HomePageState extends State<HomePage> {
         child: CustomAppBar(
           actions: [
             Padding(
-              padding: EdgeInsets.all(12.h),
+              padding: EdgeInsets.all(5.h),
               child: const CircleAvatar(
-                radius: 15,
+                radius: 20,
                 backgroundImage: AssetImage("assets/images/user.png"),
               ),
             )

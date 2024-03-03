@@ -23,7 +23,7 @@ class _DrawerScreenState extends State<DrawerScreen> {
     return GestureDetector(
       onTap: () => ZoomDrawer.of(context)!.toggle(),
       child: Scaffold(
-        backgroundColor: Color(kLightBlue.value),
+        backgroundColor: Color(kDarkBlue.value),
         body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -54,7 +54,7 @@ class _DrawerScreenState extends State<DrawerScreen> {
               icon: MaterialCommunityIcons.devices,
               color: Color(kLightGrey.value),
               index: 3,
-              text: "Device Managment",
+              text: "Device Mgmnt",
             ),
 
             DrawerItem(

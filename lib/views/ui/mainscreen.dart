@@ -6,14 +6,14 @@ import 'package:jobhub/constants/app_constants.dart';
 import 'package:jobhub/views/common/drawer/drawer_screen.dart';
 import 'package:jobhub/views/ui/homepage.dart';
 
-class Mainscreen extends StatefulWidget {
-  const Mainscreen({ Key? key }) : super(key: key);
+class MainScreen extends StatefulWidget {
+  const MainScreen({ Key? key }) : super(key: key);
 
   @override
-  _MainscreenState createState() => _MainscreenState();
+  _MainScreenState createState() => _MainScreenState();
 }
 
-class _MainscreenState extends State<Mainscreen> {
+class _MainScreenState extends State<MainScreen> {
   @override
   Widget build(BuildContext context) {
     return ZoomDrawer(
