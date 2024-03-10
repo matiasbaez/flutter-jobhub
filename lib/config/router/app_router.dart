@@ -26,5 +26,10 @@ final appRouter = GoRouter(
       builder: (context, state) => const MainScreen(),
     ),
 
+    GoRoute(
+      path: '/search',
+      builder: (context, state) => const SearchPage(),
+    ),
+
   ]
 );
